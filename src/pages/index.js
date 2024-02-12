@@ -2,12 +2,12 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Profile from './qcomps/list_keys_id'
+import Menu from './qcomps/recipes.js'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Profile />
+        <Menu/>
     </div>
   )
 }
